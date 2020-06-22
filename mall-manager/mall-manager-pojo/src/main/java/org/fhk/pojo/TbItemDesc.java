@@ -1,25 +1,15 @@
-package org.fhk.mapper;
+package org.fhk.pojo;
 
 import java.util.Date;
 
-public class TbItemParamItem {
-    private Long id;
-
+public class TbItemDesc {
     private Long itemId;
 
     private Date created;
 
     private Date updated;
 
-    private String paramData;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private String itemDesc;
 
     public Long getItemId() {
         return itemId;
@@ -45,11 +35,11 @@ public class TbItemParamItem {
         this.updated = updated;
     }
 
-    public String getParamData() {
-        return paramData;
+    public String getItemDesc() {
+        return itemDesc;
     }
 
-    public void setParamData(String paramData) {
-        this.paramData = paramData == null ? null : paramData.trim();
+    public void setItemDesc(String itemDesc) {
+        this.itemDesc = itemDesc == null ? null : itemDesc.trim();
     }
 }

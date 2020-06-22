@@ -119,7 +119,5 @@ public class TbItem {
 				+ num + ", barcode=" + barcode + ", image=" + image + ", cid=" + cid + ", status=" + status
 				+ ", created=" + created + ", updated=" + updated + "]";
 	}
-
-	
     
 }
